@@ -21,6 +21,7 @@ public class AudioManager : MonoBehaviour
         public StudioEventEmitter musicBoss;
         public StudioEventEmitter musicPause;
         public StudioEventEmitter snapShotPause;
+        public StudioEventEmitter ambiance;
     }
     public Emitters eventEmitters;
 
@@ -31,7 +32,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private EventReference playerJump;
     [SerializeField] private EventReference playerLand;
     [SerializeField] private EventReference playerAttackMelee;
-    
+    [SerializeField] private EventReference playerAttackRanged;
     [SerializeField] private EventReference playerHurt;
     EventInstance playerFootstepInstance;
     EventInstance playerLandInstance;
@@ -200,16 +201,16 @@ public class AudioManager : MonoBehaviour
         switch(surface)
         {
             case "Grass":
-                playerFootstepInstance.setParameterByName("Surface", 0f);
+                playerLandInstance.setParameterByName("Surface", 0f);
                 break;
             case "Rock":
-                playerFootstepInstance.setParameterByName("Surface", 1f);
+                playerLandInstance.setParameterByName("Surface", 1f);
                 break;
             case "Metal":
-                playerFootstepInstance.setParameterByName("Surface", 2f);
+                playerLandInstance.setParameterByName("Surface", 2f);
                 break;
             default:
-                playerFootstepInstance.setParameterByName("Surface", 0f);
+                playerLandInstance.setParameterByName("Surface", 0f);
                 break;
         }
         playerLandInstance.start();
@@ -224,6 +225,16 @@ public class AudioManager : MonoBehaviour
             return;
         }
         RuntimeManager.PlayOneShot(playerAttackMelee, transform.position);
+    }
+
+    public void PlayRanged()
+    {
+        if (playerAttackRanged.IsNull)
+        {
+            Debug.LogWarning(message:"Fmod event not found: playerAttackRanged");
+            return;
+        }
+        RuntimeManager.PlayOneShot(playerAttackRanged);
     }
 
 	
