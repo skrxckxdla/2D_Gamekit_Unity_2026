@@ -349,18 +349,18 @@ MonoBehaviour:
     Path: event:/SFX/Player/PlayerAttackRanged
   playerHurt:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1349223735
+      Data2: 1308857703
+      Data3: -504666476
+      Data4: -1931311598
+    Path: event:/SFX/Player/PlayerDamage
   wallDestroy:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 708597625
+      Data2: 1124898599
+      Data3: -1171597890
+      Data4: 1416314617
+    Path: event:/SFX/Interactables/Int_WallDestroy
   pickupHealth:
     Guid:
       Data1: 0
@@ -370,11 +370,11 @@ MonoBehaviour:
     Path: 
   doorSwitch:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1884910369
+      Data2: 1180444846
+      Data3: -1552268912
+      Data4: 1333920137
+    Path: event:/SFX/Interactables/Int_DoorLight
   doorOpen:
     Guid:
       Data1: 0
@@ -384,11 +384,11 @@ MonoBehaviour:
     Path: 
   pickupKey:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 111960243
+      Data2: 1123502805
+      Data3: 1356498843
+      Data4: 633143872
+    Path: event:/SFX/Interactables/Int_KeyPickup
   pressurePad:
     Guid:
       Data1: 0
@@ -426,11 +426,11 @@ MonoBehaviour:
     Path: 
   enemyFootstep:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -645823786
+      Data2: 1185848002
+      Data3: 1769530260
+      Data4: -307010005
+    Path: event:/SFX/Enemies/EnemyWalk
   enemyRanged:
     Guid:
       Data1: 0
@@ -440,18 +440,18 @@ MonoBehaviour:
     Path: 
   enemyMelee:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -1477357528
+      Data2: 1236333927
+      Data3: -1501956947
+      Data4: 1896037838
+    Path: event:/SFX/Enemies/EnemyAttack
   enemyDeath:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -959820610
+      Data2: 1133543162
+      Data3: 1534402184
+      Data4: 1206571513
+    Path: event:/SFX/Enemies/EnemyDeath
   stingerGameOver:
     Guid:
       Data1: 715162006
