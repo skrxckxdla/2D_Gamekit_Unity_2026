@@ -284,7 +284,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            boxPushInstance.setParameterByName("End", 1f);
+            boxPushInstance.setParameterByName("Looping", 1f);
             boxPushInstance.release();
             Debug.Log("Stopped Pushing");
         }
