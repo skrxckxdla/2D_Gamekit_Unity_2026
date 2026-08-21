@@ -29073,6 +29073,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
         type: 3}
+      propertyPath: menuStartGame.Path
+      value: event:/SFX/Menu/MenuStart
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
       propertyPath: doorSwitch.Guid.Data1
       value: -1884910369
       objectReference: {fileID: 0}
@@ -29090,6 +29095,51 @@ PrefabInstance:
         type: 3}
       propertyPath: doorSwitch.Guid.Data4
       value: 1333920137
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Path
+      value: event:/SFX/Menu/MenuStart
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: menuStartGame.Guid.Data1
+      value: 497045290
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: menuStartGame.Guid.Data2
+      value: 1194944425
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: menuStartGame.Guid.Data3
+      value: 737138329
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: menuStartGame.Guid.Data4
+      value: -112969215
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Guid.Data1
+      value: 497045290
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Guid.Data2
+      value: 1194944425
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Guid.Data3
+      value: 737138329
+      objectReference: {fileID: 0}
+    - target: {fileID: 4318290237554146967, guid: 8b7499782bc734d9eb2dde86fcc6b7e9,
+        type: 3}
+      propertyPath: stingerKeyPickup.Guid.Data4
+      value: -112969215
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

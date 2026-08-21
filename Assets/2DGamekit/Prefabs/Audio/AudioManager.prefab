@@ -412,18 +412,18 @@ MonoBehaviour:
     Path: event:/SFX/Interactables/Int_BoxMove
   menuClick:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 1950393297
+      Data2: 1213602731
+      Data3: 1794666631
+      Data4: 1505587312
+    Path: event:/SFX/Menu/MenuClick
   menuStartGame:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 497045290
+      Data2: 1194944425
+      Data3: 737138329
+      Data4: -112969215
+    Path: event:/SFX/Menu/MenuStart
   enemyFootstep:
     Guid:
       Data1: -645823786
@@ -451,7 +451,7 @@ MonoBehaviour:
       Data2: 1133543162
       Data3: 1534402184
       Data4: 1206571513
-    Path: event:/SFX/Enemies/EnemyDeath
+    Path: event:/SFX/Enemies/EnemyDeathShared
   stingerGameOver:
     Guid:
       Data1: 715162006
@@ -612,6 +612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6444644699953126575}
   - component: {fileID: 3363623800432058547}
+  - component: {fileID: 1681055778711653107}
   m_Layer: 0
   m_Name: Ambiance
   m_TagString: Ambiance
@@ -665,3 +666,16 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &1681055778711653107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7309543447266697102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e964efe0e8cd4ddba522c37df205aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::AudioEmitterPosition
+  tagName: Player

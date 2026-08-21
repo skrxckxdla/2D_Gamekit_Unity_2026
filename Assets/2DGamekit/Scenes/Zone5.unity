@@ -69563,12 +69563,12 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossDie.Path
-      value: 
+      value: event:/SFX/Enemies/Gunner/GunnerDeath
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossWalk.Path
-      value: 
+      value: event:/SFX/Enemies/Gunner/GunnerWalk
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
@@ -69583,192 +69583,192 @@ PrefabInstance:
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Path
-      value: 
+      value: event:/SFX/Enemies/Gunner/GunnerShield
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossDie.Guid.Data1
-      value: 0
+      value: -500066747
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossDie.Guid.Data2
-      value: 0
+      value: 1294252674
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossDie.Guid.Data3
-      value: 0
+      value: -477890888
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossDie.Guid.Data4
-      value: 0
+      value: 669160650
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossSteamStage.Path
-      value: 
+      value: event:/SFX/Enemies/Gunner/GunnerSteam
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossTakeDamage.Path
-      value: 
+      value: event:/SFX/Enemies/Gunner/GunnerDamage
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossWalk.Guid.Data1
-      value: 0
+      value: 1380969814
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossWalk.Guid.Data2
-      value: 0
+      value: 1302827424
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossWalk.Guid.Data3
-      value: 0
+      value: -292623964
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossWalk.Guid.Data4
-      value: 0
+      value: -1064386837
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLaserAttack.Path
-      value: 
+      value: event:/SFX/Enemies/Gunner/GunnerLaser
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Guid.Data1
-      value: 0
+      value: -1773691720
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Guid.Data2
-      value: 0
+      value: 1321390005
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Guid.Data3
-      value: 0
+      value: 880518025
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossShield.Guid.Data4
-      value: 0
+      value: -1300905852
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossGrenadeAttack.Path
-      value: 
+      value: event:/SFX/Enemies/Gunner/GunnerAttackGrenade
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLightningAttack.Path
-      value: 
+      value: event:/SFX/Enemies/Gunner/GunnerLightning
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossSteamStage.Guid.Data1
-      value: 0
+      value: 771978460
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossSteamStage.Guid.Data2
-      value: 0
+      value: 1281358178
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossSteamStage.Guid.Data3
-      value: 0
+      value: -709105270
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossSteamStage.Guid.Data4
-      value: 0
+      value: 60268936
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossTakeDamage.Guid.Data1
-      value: 0
+      value: 2093323772
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossTakeDamage.Guid.Data2
-      value: 0
+      value: 1117759144
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossTakeDamage.Guid.Data3
-      value: 0
+      value: -725568592
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossTakeDamage.Guid.Data4
-      value: 0
+      value: -1444179168
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLaserAttack.Guid.Data1
-      value: 0
+      value: -51136993
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLaserAttack.Guid.Data2
-      value: 0
+      value: 1232416453
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLaserAttack.Guid.Data3
-      value: 0
+      value: 1595923856
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLaserAttack.Guid.Data4
-      value: 0
+      value: -1988496821
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossGrenadeAttack.Guid.Data1
-      value: 0
+      value: 2004576644
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossGrenadeAttack.Guid.Data2
-      value: 0
+      value: 1221820285
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossGrenadeAttack.Guid.Data3
-      value: 0
+      value: -77179490
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossGrenadeAttack.Guid.Data4
-      value: 0
+      value: 1228635314
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLightningAttack.Guid.Data1
-      value: 0
+      value: 64750771
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLightningAttack.Guid.Data2
-      value: 0
+      value: 1217999123
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLightningAttack.Guid.Data3
-      value: 0
+      value: 1183363256
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796894, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
       propertyPath: bossLightningAttack.Guid.Data4
-      value: 0
+      value: -524005437
       objectReference: {fileID: 0}
     - target: {fileID: 4256432018734796895, guid: 056286e10563bf64cae51e44c59f8d93,
         type: 3}
